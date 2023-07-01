@@ -1,10 +1,15 @@
 import { Router } from 'express';
-import { getStreamer, createStreamer, getAllStreamers, voteForStreamer } from '../controllers/streamerController';
-
+import {
+    getAllStreamers,
+    getStreamerById,
+    voteForStreamer,
+    createStreamer,
+  } from '../controllers/streamersController.js';
+  
 const router = Router();
 
 // GET /streamers/:streamerId
-router.get('/:streamerId', getStreamer);
+router.get('/:streamerId', getStreamerById);
 
 // POST /streamers
 router.post('/', createStreamer);
