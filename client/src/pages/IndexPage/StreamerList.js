@@ -64,7 +64,7 @@ const StreamerList = ({ streamers, setStreamers }) => {
               <Link to={`/streamers/${streamer.id}`}>{streamer.name}</Link>
             </p>
             <p>
-              {streamer.upvotes}
+            <span className='upvotes'>{streamer.upvotes}</span>
               <Button
                 onClick={() => handleVote(streamer.id, "upvote")}
                 className={`${styles.voteButton} ${styles.upvoteButton}`}
@@ -77,7 +77,7 @@ const StreamerList = ({ streamers, setStreamers }) => {
                 text="-"
                 buttonColor='red'
               ></Button>
-              {streamer.downvotes}
+              <span className='downvotes'>{streamer.downvotes}</span>
             </p>
           </li>
         ))}

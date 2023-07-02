@@ -32,15 +32,15 @@ const StreamerRecord = ({ streamerId }) => {
     <div className={styles.contentBox}>
       <p>
         <span className={styles.boldText}>Name: </span>
-        {streamer.name}
+        <span className={styles.recordContent}>{streamer.name}</span>
       </p>
       <p>
         <span className={styles.boldText}>Platform: </span>
-        {streamer.platform}
+        <span className={styles.recordContent}>{streamer.platform}</span>
       </p>
       <p>
         <span className={styles.boldText}>Description: </span>
-        {streamer.description}
+        <span className={styles.recordContent}>{streamer.description}</span>
       </p>
     </div>
   );
