@@ -3,22 +3,15 @@
   }
   
 .inputField {
+    width: 100%;
     padding: 5px;
-    width: 200px;
+    box-sizing: border-box;
   }
 
-input, select {
-  margin: 10px;
-}
-
-textarea {
-  margin: 10px 0;
-}
-
 .inputBox {
-  padding: 12px 0;
+  margin-top: 10px;
 }
 
-.closeButton {
-  background-color: red;
+input, select, textarea {
+  margin: 10px 0;
 }

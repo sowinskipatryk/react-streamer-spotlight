@@ -10,7 +10,7 @@ const IndexPage = () => {
   const [showForm, setShowForm] = useState(false);
   return (
     <Container>
-      <h1>Streamers</h1>
+      <h1>Streamer Spotlight</h1>
       <Button onClick={() => setShowForm(true)} text="Add Streamer" />
       {showForm ? <Backdrop setShowForm={setShowForm} /> : ""}
       {showForm ? (
