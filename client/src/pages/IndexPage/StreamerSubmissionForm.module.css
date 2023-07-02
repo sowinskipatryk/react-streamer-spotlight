@@ -1,0 +1,28 @@
+.formContainer {
+    margin: 20px;
+  }
+  
+.inputField {
+    padding: 5px;
+    width: 200px;
+  }
+  
+.submitButton {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+input, select {
+  margin: 10px;
+}
+
+textarea {
+  margin: 10px 0;
+}
+
+.inputBox {
+  padding: 12px 0;
+}

@@ -1,0 +1,56 @@
+.streamerList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.streamerItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(50, 51, 81);
+    padding: 16px;
+    border-radius: 14px;
+  }
+  
+.streamerName {
+    font-weight: bold;
+  }
+  
+.streamerUpvotes,
+.streamerDownvotes {
+    margin: 5px 0;
+  }
+  
+.voteButton {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+.upvoteButton {
+    background-color: rgb(231, 76, 60);
+  }
+  
+.downvoteButton {
+    background-color: rgb(83, 181, 72);
+  }
+
+.upvoteButton:hover {
+  background-color: rgb(205, 51, 34);
+}
+
+.downvoteButton:hover {
+  background-color: rgb(66, 158, 56);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-style: italic;
+}
+
+p {
+  margin: 10px;
+}
