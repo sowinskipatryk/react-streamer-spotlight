@@ -69,11 +69,13 @@ const StreamerList = ({ streamers, setStreamers }) => {
                 onClick={() => handleVote(streamer.id, "upvote")}
                 className={`${styles.voteButton} ${styles.upvoteButton}`}
                 text="+"
+                buttonColor='green'
               ></Button>
               <Button
                 onClick={() => handleVote(streamer.id, "downvote")}
                 className={`${styles.voteButton} ${styles.downvoteButton}`}
                 text="-"
+                buttonColor='red'
               ></Button>
               {streamer.downvotes}
             </p>

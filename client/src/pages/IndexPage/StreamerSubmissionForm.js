@@ -88,6 +88,11 @@ const StreamerSubmissionForm = ({ streamers, setStreamers, setShowForm }) => {
             ></textarea>
           </div>
           <Button type="submit" className={styles.submitButton} text="Submit" />
+          <Button
+            text="Close"
+            onClick={() => setShowForm(false)}
+            buttonColor="red"
+          />
         </form>
       </div>
     </Modal>

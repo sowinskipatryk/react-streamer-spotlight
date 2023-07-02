@@ -8,6 +8,22 @@
     border-radius: 10px;
   }
 
-  .button:hover {
+.button:hover {
     background-color: #0468d2;
   }
+
+.redButton {
+    background-color: rgb(231, 76, 60);
+  }
+  
+.greenButton {
+    background-color: rgb(83, 181, 72);
+  }
+
+.redButton:hover {
+  background-color: rgb(205, 51, 34);
+}
+
+.greenButton:hover {
+  background-color: rgb(66, 158, 56);
+}

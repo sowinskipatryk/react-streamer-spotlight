@@ -28,22 +28,6 @@
   padding: 4px;
 }
 
-.upvoteButton {
-    background-color: rgb(231, 76, 60);
-  }
-  
-.downvoteButton {
-    background-color: rgb(83, 181, 72);
-  }
-
-.upvoteButton:hover {
-  background-color: rgb(205, 51, 34);
-}
-
-.downvoteButton:hover {
-  background-color: rgb(66, 158, 56);
-}
-
 a {
   text-decoration: none;
   color: white;

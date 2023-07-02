@@ -12,7 +12,7 @@ const StreamerPage = () => {
       <h1>Streamer Details</h1>
       <LazyLoadImage
         effect="blur" // Adds a blur effect when image is loading
-        src={`/images/${streamerId % 4}.png`}
+        src={`/images/${streamerId % 3}.png`}
         alt="Placeholder"
         width={300}
         height={300}
